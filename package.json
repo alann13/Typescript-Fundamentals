@@ -1,0 +1,26 @@
+{
+  "name": "typescript-fundamentals-v3-course",
+  "version": "1.0.0",
+  "description": "This repo hosts code/notes taken from the course https://frontendmasters.com/courses/typescript-v3/",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inthahouse/typescript-fem-v3-course.git"
+  },
+  "keywords": [],
+  "author": "inthahouse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inthahouse/typescript-fem-v3-course/issues"
+  },
+  "homepage": "https://github.com/inthahouse/typescript-fem-v3-course#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "ts-node": "^10.2.0"
+  }
+}

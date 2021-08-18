@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "dist", // where to put the compiled files.
+    "target": "ES2018",
+    "module": "CommonJS"
+  },
+  "include": ["src"] // which files to compile.
+}
