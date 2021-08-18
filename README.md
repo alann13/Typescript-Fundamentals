@@ -9,6 +9,7 @@ This repo hosts code/notes taken from the course https://frontendmasters.com/cou
 
 <details>
   <summary>Setup</summary>
+  
 - See `tsconfig.json` for config.
 - You can pass compiler options in the command line also. example: `tsc --outdir dist`.
 - Typescript can do type inference. Meaning it might be able to guess the type of your variable without giving it a type.
@@ -31,9 +32,10 @@ This repo hosts code/notes taken from the course https://frontendmasters.com/cou
 
 <details>
   <summary>Functions</summary>
+
 - Function overload: you can define same name functions with different param types.
 - Protip: always have a return type in your functions.
-- Private: A private member cannot be accessed outside of its containing class. 
+- Private: A private member cannot be accessed outside of its containing class.
 - Protected: A protected member cannot be accessed outside of its containing class.
 - Security Protip: don't put sensitive info in private nor protected members.
 - readonly keyword only prevent reassignation.
@@ -41,6 +43,7 @@ This repo hosts code/notes taken from the course https://frontendmasters.com/cou
 
 <details>
   <summary>Types & Values</summary>
+
 - Unknown types cannot be used without first applying type guard. (check the type with if statements before using)
 - Unknown types are great for values received at runtime by forcing consumers to do some light validations before using them.
 - `never` type holds no possible value. Good for exaustive conditionals. (end of switch / if else statements)
@@ -48,7 +51,6 @@ This repo hosts code/notes taken from the course https://frontendmasters.com/cou
 - undefined means the value isn't available (yet?). undefined is an indication that there might be something coming in the future.
 - void should be exclusively used to describe a function that ignores a return value.
 - `!.` non null assertion operator. Good for test suites.
-
 </details>
 
 <details>
