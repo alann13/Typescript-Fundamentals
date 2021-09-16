@@ -4,5 +4,6 @@
     "target": "ES2018",
     "module": "CommonJS"
   },
-  "include": ["src"] // which files to compile.
+  "include": ["sections", "index.ts"],
+  "exclude": ["dist"]
 }

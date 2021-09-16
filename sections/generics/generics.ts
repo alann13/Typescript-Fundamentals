@@ -14,6 +14,6 @@ export const listToDict = <T>(
 }
 
 // Super simple example
-const wrapInArray = <T>(arg: T): T[] => {
+export const wrapInArray = <T>(arg: T): T[] => {
   return [arg]
 }
